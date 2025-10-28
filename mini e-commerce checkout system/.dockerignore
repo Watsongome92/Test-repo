@@ -1,0 +1,16 @@
+# Ignore local node modules and build artifacts
+frontend/node_modules
+frontend/build
+api-gateway/node_modules
+order-service/node_modules
+
+# Ignore Git and Docker metadata
+.git
+
+.dockerignore
+Dockerfile
+Dockerfile.dev
+
+# Ignore system files
+*.log
+.DS_Store
